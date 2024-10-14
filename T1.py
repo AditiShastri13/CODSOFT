@@ -8,7 +8,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
 
-df_train = pd.read_csv('C:\\Users\\aditi\\Desktop\\Codesoft\\Titanic-Dataset.csv')
+df_train = pd.read_csv('Titanic-Dataset.csv')
 print(df_train.head())
 
 df_train['FamilySize'] = df_train['SibSp'] + df_train['Parch'] + 1
