@@ -1,3 +1,6 @@
+# Author Aditi Shastri
+# Task 1                                        ****** TITANIC SURVIVAL PREDICTION *********
+
 import pandas as pd 
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
@@ -41,8 +44,6 @@ plt.title('Passenger Sex Distribution')
 plt.xticks(rotation=0)
 plt.xlabel('Gender')
 plt.ylabel('Count')
-
-#Text(0, 0.5, 'Count')
 
 plt.subplot(1, 2, 2)
 df_train['Embarked'].value_counts().plot(kind='bar', color=['gold', 'blue', 'red'])
