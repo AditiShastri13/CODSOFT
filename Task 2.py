@@ -1,3 +1,6 @@
+# Author Aditi Shastri
+# Task 2                                         ****** SALES PREDICTION USING PYTHON *********
+
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -103,4 +106,3 @@ r_squared
 plt.scatter(X_test, y_test)
 plt.plot(X_test, 6.948 + 0.054 * X_test, 'r')
 plt.show()
-
