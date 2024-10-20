@@ -1,5 +1,5 @@
 # Author Aditi Shastri
-# Task 2                                         ****** SALES PREDICTION USING PYTHON *********
+# Task 4                                         ****** SALES PREDICTION USING PYTHON *********
 
 import warnings
 warnings.filterwarnings('ignore')
